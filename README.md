@@ -1,5 +1,5 @@
 # sunburst
-This repository contains NBI and file hashes to help researchers detect SUNBURST. Many different organizations are providing hashes others aren't. This is just an attempt to compile all indicators and some analysis of the reports available for responders. 
+This repository contains NBI and file hashes to help researchers detect SUNBURST. Many different organizations are providing hashes others aren't. This is just an attempt to compile all indicators, some hunting techniques, and some sumarized analysis of the reports available for responders to hopefully help fellow responders with our work.
 
 The NBI are provided as is to help researchers and threat hunters and can be used as high confidence categorically.
 The file hashes are known compromised, high confidence.
@@ -37,6 +37,8 @@ As noted, the adversaries use domain generated algorithms (DGA) to build subdoma
 [Microsoft Customer Guidance SUNBURST](https://msrc-blog.microsoft.com/2020/12/13/customer-guidance-on-recent-nation-state-cyber-attacks)</br>
 [Threat Advisory: SolarWinds supply chain attack](https://blog.talosintelligence.com/2020/12/solarwinds-supplychain-coverage.html)</br>
 [SolarWinds SUNBURST Backdoor](https://blog.rapid7.com/2020/12/14/solarwinds-sunburst-backdoor-supply-chain-attack-what-you-need-to-know/)</br>
-[unit42: SolarStorm and SUNBURST Customer Coverage](https://unit42.paloaltonetworks.com/fireeye-solarstorm-sunburst/)
+[unit42: SolarStorm and SUNBURST Customer Coverage](https://unit42.paloaltonetworks.com/fireeye-solarstorm-sunburst/)</br>
+[TrustedSec SUNBURST](https://www.trustedsec.com/blog/solarwinds-orion-and-unc2452-summary-and-recommendations/)</br>
+[Reversing Labs: SunBurst: the next level of stealth](https://blog.reversinglabs.com/blog/sunburst-the-next-level-of-stealth)
 
 Special thanks to John Bambenek @bambenek who started with identifying NBI beyond initial scope of [FireEye published indicators](https://github.com/fireeye/sunburst_countermeasures).
