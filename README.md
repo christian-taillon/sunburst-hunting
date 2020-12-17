@@ -1,5 +1,5 @@
 # sunburst
-This repository contains NBI and file hashes to help researchers detect SUNBURST.
+This repository contains NBI and file hashes to help researchers detect SUNBURST. Many different organizations are providing hashes others aren't. This is just an attempt to compile all indicators and some analysis of the reports available for responders. 
 
 The NBI are provided as is to help researchers and threat hunters and can be used as high confidence categorically.
 The file hashes are known compromised, high confidence.
