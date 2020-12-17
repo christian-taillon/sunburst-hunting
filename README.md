@@ -1,6 +1,8 @@
 # sunburst
 This repository contains NBI and file hashes to help researchers detect SUNBURST. Many different organizations are providing hashes others aren't. This is just an attempt to compile all indicators, some hunting techniques, and some summarized analysis of the reports available for responders to hopefully help fellow responders with our work.
 
+I reccomend checking out the new [CISA Alert: AA20-352A](https://us-cert.cisa.gov/ncas/alerts/aa20-352a)
+
 The NBI are provided as is to help researchers and threat hunters and can be used as high confidence categorically.
 The file hashes are known compromised, high confidence.
 

@@ -7,7 +7,7 @@ In addition to observing the other indicators mentioned in this directory there 
 ### The existence of netsetupsvc.dll
 The presence of this file may indicate a compromise [1][2]
 
-_file-path*: “c:\\windows\\syswow64\\netsetupsvc.dll </br>
+_file-path*: “c:\\windows\\syswow64\\netsetupsvc.dll" </br>
 pid: 17900_
 
 [ISC.SANS.EDU:SolarWinds Breach](https://isc.sans.edu/forums/diary/SolarWinds+Breach+Used+to+Infiltrate+Customer+Networks+Solarigate/26884/1)
