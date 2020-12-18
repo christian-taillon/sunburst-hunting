@@ -1,10 +1,10 @@
 # sunburst
 This repository contains NBI and file hashes to help researchers detect SUNBURST. Many different organizations are providing hashes others aren't. This is just an attempt to compile all indicators, some hunting techniques, and some summarized analysis of the reports available for responders to hopefully help fellow responders with our work.
 
-I am pulling the unique hostnames form multiple sources and compiling the list at [sunburst-hunting/indicators/uniq-hostnames.txt](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/uniq-hostnames.txt). I try to update it every day. The list of resources we are pulling from includes Passive Total, @bambenek's work, and partner lists.
+I am pulling the unique hostnames form multiple sources and compiling the list at [sunburst-hunting/indicators/uniq-hostnames.txt](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/uniq-hostnames.txt).
 
 These NBI are provided as is to help researchers and threat hunters and can be used as high confidence categorically.
-The file hashes are known compromised, high confidence.
+The [file hashes](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/sha256.csv) are known compromised, high confidence.
 
 #### Attribution
 FireEye is tracking this adversary as UNC2452, but some have conjectured that this may be activity from the recently dormant APT29 / Cozy Bear. At this time, not enough information is available to confirm that APT29 is behind this attack.

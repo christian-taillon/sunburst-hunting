@@ -70,7 +70,7 @@ result=success targetResources{}.modifiedProperties{}.displayName=AvailableToOth
 UNC2452 has been noted to use C2 infrastructure that matches victims hostnames. Consider using services like [RiskIQ/]Passive Total](https://community.riskiq.com/login) or [Shodan.io](Shodan.io) to search for internal hostnames. This could reveal infrastructure used against your company. [2]
 
 As noted in the [README.ME](https://github.com/christian-taillon/sunburst-hunting/blob/main/README.md), I am pulling form a lot of different resources to create [sunburst-hunting/indicators/uniq-hostnames.txt](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/uniq-hostnames.txt)
-You can use [RedDrip7's project](https://github.com/RedDrip7/SunBurst_DGA_Decode) to decode to see if your domains are on the list.
+You can use [RedDrip7's project](https://github.com/RedDrip7/SunBurst_DGA_Decode) to decode to see if your domains are on the list.  I try to update it every day. The list of resources we are pulling from includes Passive Total, @bambenek's work, and partner lists.
 
 __:~$ cat /$github_dir$/sunburst-hunting/indicators/uniq-hos
 tnames.txt | python decode.py | grep -E "domain1.com|domain2.org"__
