@@ -43,6 +43,11 @@ swip/Upload.ashx </br>
 Monitor for App Registration and Service Principals
 The adversary has been observed targeting Azure AD as a component of its lateral movement. As mentioned in readme, this is done with compromised administrative accounts or by forging SAML tokens with compromised signing tokens.[2][6]
 
+__SAML__
+- No associated account with token
+- Impossible tokens: default is 1-hour token ttl; long lived tokens could indicate malicious activity.
+- Tokens should be issues before use. An identical timestamp for both creation and use should not occur.
+
 If you brought Azure AD data into a SIEM you can look for the following:</br>
 _note: these queries will be in SPL; however, the same events can be searched for with other query languages in other products_
 
