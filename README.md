@@ -1,7 +1,7 @@
 # sunburst
 This repository contains NBI and file hashes to help researchers detect SUNBURST. Many different organizations are providing hashes others aren't. This is just an attempt to compile all indicators, some hunting techniques, and some summarized analysis of the reports available for responders to hopefully help fellow responders with our work.
 
-I recommend checking out the new [CISA Alert: AA20-352A](https://us-cert.cisa.gov/ncas/alerts/aa20-352a)
+I am pulling the unique hostnames form multiple sources and compiling the list at [sunburst-hunting/indicators/uniq-hostnames.txt](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/uniq-hostnames.txt). I try to update it every day. The list of resources we are pulling from includes Passive Total, @bambenek's work, and partner lists.
 
 These NBI are provided as is to help researchers and threat hunters and can be used as high confidence categorically.
 The file hashes are known compromised, high confidence.
@@ -30,6 +30,8 @@ Along with SUNBURST, samples have been observed dropping a memory-only dropper c
 As noted, the adversaries use domain generated algorithms (DGA) to build subdomains of the avsvmcloud[dot]com. This communication can be used for the additional payloads or to exfiltrate data. Hostnames have matched those found monitored by the victim’s Orion instance. It appears that the adversary will also use VPS infrastructure hosted in the same country as the victim.
 
 ### Security Advisories  
+LATEST: [CISA Alert: AA20-352A](https://us-cert.cisa.gov/ncas/alerts/aa20-352a)
+
 [SolarWinds Security Advisory - SUNBURST](https://www.solarwinds.com/securityadvisory) </br>
 [Continually Updated SolarWinds Security Advisory](https://www.solarwinds.com/securityadvisory)</br>
 [DHS - Emergency Directive 21-01](https://cyber.dhs.gov/ed/21-01/)
@@ -42,5 +44,5 @@ As noted, the adversaries use domain generated algorithms (DGA) to build subdoma
 [unit42: SolarStorm and SUNBURST Customer Coverage](https://unit42.paloaltonetworks.com/fireeye-solarstorm-sunburst/)</br>
 [TrustedSec SUNBURST](https://www.trustedsec.com/blog/solarwinds-orion-and-unc2452-summary-and-recommendations/)</br>
 [Reversing Labs: SunBurst: the next level of stealth](https://blog.reversinglabs.com/blog/sunburst-the-next-level-of-stealth)
-
-Special thanks to John Bambenek @bambenek who started with identifying NBI beyond initial scope of [FireEye published indicators](https://github.com/fireeye/sunburst_countermeasures).
+</br></br>
+Special thanks to John Bambenek @bambenek who started with identifying NBI beyond initial scope of [FireEye published indicators](https://github.com/fireeye/sunburst_countermeasures) and @RedDrip7 for starting work on the [python script](https://github.com/RedDrip7/SunBurst_DGA_Decode).
