@@ -67,7 +67,7 @@ result=success targetResources{}.modifiedProperties{}.displayName=AvailableToOth
 ## Exchange Management Shell
 Validity is tracking this threat as __Dark Halo__ and believes that they have worked multiple incidents for this in late 2019 and 2020. They believe the attacker is familiar with exploiting Exchange to perform their domain recon and lateral movement.
 
-Consider adding alert mechanisms to EDR solutions that can track use of the Exchange Management Shell PowerShell cmdlets.
+Consider adding alert mechanisms to EDR solutions that can track use of the [Exchange Management Shell PowerShell cmdlets](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/exchange_management_shell.txt).
 
 
 </br></br>
