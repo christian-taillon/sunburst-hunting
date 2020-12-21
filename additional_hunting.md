@@ -21,6 +21,14 @@ TEARDROP is an in memory dropper that is believed to execute an augmented Cobalt
 
 - read from file: 'gracious_truth.jpg'
 - check HKU\SOFTWARE\Microsoft\CTF
+</br>
+
+#### Named Pipe
+FireEye noted in their port the existence of a consistent named pipe. If you are collecting these logs you can search for that named pipe __583da945-62af-10e8-4902-a8f205c72b2e__.
+
+If you are using Splunk + Sysmon, the search would be: </br>
+_index=$SYSMON_INDEX$ sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode IN (17,18) PipeName=583da945-62af-10e8-4902-a8f205c72b2e_
+
 </br></br>
 ## Network
 #### BEACON
