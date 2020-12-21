@@ -1,0 +1,11 @@
+Get-AcceptedDomain
+Get-CASMailbox
+Get-Mailbox
+Get-ManagementRoleAssignment
+Get-OrganizationConfig
+Get-OwaVirtualDirectory
+Get-Process
+Get-WebServicesVirtualDirectory
+New-MailboxExportRequest
+Remove-MailboxExportRequest
+Set-CASMailbox

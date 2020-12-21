@@ -38,6 +38,7 @@ LATEST: [CISA Alert: AA20-352A](https://us-cert.cisa.gov/ncas/alerts/aa20-352a)
 
 ### Resources and Recognition
 [FireEye White Paper: SUNBURST Backdoor](https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html)</br>
+[VOLEXITY: Dark Halo](https://www.volexity.com/blog/2020/12/14/dark-halo-leverages-solarwinds-compromise-to-breach-organizations/)</br>
 [Microsoft Customer Guidance SUNBURST](https://msrc-blog.microsoft.com/2020/12/13/customer-guidance-on-recent-nation-state-cyber-attacks)</br>
 [Threat Advisory: SolarWinds supply chain attack](https://blog.talosintelligence.com/2020/12/solarwinds-supplychain-coverage.html)</br>
 [SolarWinds SUNBURST Backdoor](https://blog.rapid7.com/2020/12/14/solarwinds-sunburst-backdoor-supply-chain-attack-what-you-need-to-know/)</br>
