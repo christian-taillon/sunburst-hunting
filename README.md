@@ -1,7 +1,7 @@
 # sunburst
 This repository contains NBI and file hashes to help researchers detect SUNBURST. Many different organizations are providing hashes others aren't. This is just an attempt to compile all indicators, some hunting techniques, and some summarized analysis of the reports available for responders to hopefully help fellow responders with our work.
 
-I am pulling the unique hostnames form multiple sources and compiling the list at [sunburst-hunting/indicators/uniq-hostnames.txt](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/uniq-hostnames.txt).
+I am pulling the unique hostnames form multiple sources and compiling the list at [sunburst-hunting/indicators/uniq-hostnames.txt](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/uniq-hostnames.txt). We contacted organizations we had contacts for while we learned who may have been a stage 2 target but wanted to wait several weeks until other open sources provided lists of affected organizations. Now that others are publishing these targets we also have created a list to help those who wish to see if their organization is known to be affected at [sunburst-hunting/decoded_names_and_potential_organizations.csv](https://github.com/christian-taillon/sunburst-hunting/blob/main/decoded_names_and_potential_organizations.csv. 
 
 These NBI are provided as is to help researchers and threat hunters and can be used as high confidence categorically.
 The [file hashes](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/sha256.csv) are known compromised, high confidence.
