@@ -48,28 +48,7 @@ swip/Upload.ashx </br>
 
 ## Cloud
 #### Azure AD
-Monitor for App Registration and Service Principals
-The adversary has been observed targeting Azure AD as a component of its lateral movement. As mentioned in readme, this is done with compromised administrative accounts or by forging SAML tokens with compromised signing tokens.[2][6]
-
-__SAML__
-- No associated account with token
-- Impossible tokens: default is 1-hour token ttl; long lived tokens could indicate malicious activity.
-- Tokens should be issues before use. An identical timestamp for both creation and use should not occur.
-
-If you brought Azure AD data into a SIEM you can look for the following:</br>
-_note: these queries will be in SPL; however, the same events can be searched for with other query languages in other products_
-
-__Added Service Principal__ </br>
-_sourcetype="azure:aad:audit" activityDisplayName="Add service principal credentials"_
-
-__Permission or Role Assignment__ </br>
-_sourcetype="azure:aad:audit" activityDisplayName="Add app role assignment to service principal" OR
-activityDisplayName="Add delegated permission grant" OR activityDisplayName="Add application"_
-
-__Multi Tenant Apps__ </br>
-_sourcetype="azure:aad:audit" activityDisplayName="Update application" operationType=Update
-result=success targetResources{}.modifiedProperties{}.displayName=AvailableToOtherTenants_
-
+This section has been moved to [threat_to_microsoft_cloud.md](https://github.com/christian-taillon/sunburst-hunting/blob/main/threat_to_microsoft_cloud.md)
 
 </br></br>
 ## Exchange Management Shell
