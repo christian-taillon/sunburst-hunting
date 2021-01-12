@@ -85,7 +85,12 @@ Consider adding alert mechanisms to EDR solutions that can track use of the [Exc
 UNC2452 has been noted to use C2 infrastructure that matches victims hostnames. Consider using services like [RiskIQ/]Passive Total](https://community.riskiq.com/login) or [Shodan.io](Shodan.io) to search for internal hostnames. This could reveal infrastructure used against your company. [2]
 
 As noted in the [README.ME](https://github.com/christian-taillon/sunburst-hunting/blob/main/README.md), I am pulling form a lot of different resources to create [sunburst-hunting/indicators/uniq-hostnames.txt](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/uniq-hostnames.txt)
-You can use [RedDrip7's project](https://github.com/RedDrip7/SunBurst_DGA_Decode) to decode to see if your domains are on the list.  I try to update it every day. The list of resources we are pulling from includes Passive Total, @bambenek's work, and partner lists.
+You can use [RedDrip7's project](https://github.com/RedDrip7/SunBurst_DGA_Decode) to decode to see if your domains are on the list. The list of resources we are pulling from includes Passive Total, @bambenek's work, and partner lists.
+
+**update: Now that many have posted publicly lists of targeted internal names, I am also publishing the output list.
+
+A list of identified organizations can be found [here](https://github.com/christian-taillon/sunburst-hunting/blob/main/decoded_names_and_potential_organizations.csv)</br>
+A list of decoded internal names can be found [here](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/decoded-hostnames.csv)</br>
 
 __:~$ cat /$github_dir$/sunburst-hunting/indicators/uniq-hos
 tnames.txt | python decode.py | grep -E "domain1.com|domain2.org"__
