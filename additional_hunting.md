@@ -84,7 +84,7 @@ Consider adding alert mechanisms to EDR solutions that can track use of the [Exc
 #### C2 Naming Convention
 UNC2452 has been noted to use C2 infrastructure that matches victims hostnames. Consider using services like [RiskIQ/]Passive Total](https://community.riskiq.com/login) or [Shodan.io](Shodan.io) to search for internal hostnames. This could reveal infrastructure used against your company. [2]
 
-As noted in the [README.ME](https://github.com/christian-taillon/sunburst-hunting/blob/main/README.md), I am pulling form a lot of different resources to create [sunburst-hunting/indicators/uniq-hostnames.txt](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/uniq-hostnames.txt)
+As noted in the [README.ME](https://github.com/christian-taillon/sunburst-hunting/blob/main/README.md), I am pulling form a lot of different resources to create [sunburst-hunting/indicators/uniq-hostnames.csv](https://github.com/christian-taillon/sunburst-hunting/blob/main/indicators/uniq-hostnames.csv)
 You can use [RedDrip7's project](https://github.com/RedDrip7/SunBurst_DGA_Decode) to decode to see if your domains are on the list. The list of resources we are pulling from includes Passive Total, @bambenek's work, and partner lists.
 
 **update: Now that many have posted publicly lists of targeted internal names, I am also publishing the output list.
