@@ -1,9 +1,9 @@
-# Post-Compromise - Mictosoft Cloud
+# Post-Compromise - Microsoft Cloud
 
  [CISA](https://us-cert.cisa.gov/ncas/alerts/aa21-008a) and others have discussed this APTs attention to Microsoft Cloud observed from public and private sector victims. The nature of this type of threat is less frequently addressed in advisories; when compared to the attention given to internal network security. Here we will discuss some information and guidance primarily from Microsoft and CISA.
 
 
-# Detection
+# Detection Methods
 Microsoft's cloud environments have built in detections for unusual activity. Additionally, many collect telemetry from Microsoft Graph or Audit APIs and ingest into a SIEM. Both of these can be reviewed for signs of abnormal activity.
 
 

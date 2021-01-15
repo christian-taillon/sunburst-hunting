@@ -8,7 +8,9 @@ ac1b2b89e60707a20e9eb1ca480bc3410ead40643b386d624c5d21b47c02917c,SolarWinds.Orio
 c09040d35630d75dfef0f804f320f8b3d16a481071076918e9b236a321c1ea77,missing,missing,missing,missing
 c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71,app_web_logoimagehandler.ashx.b6031896.dll,0.0.0.0,2020-03-24 09:16:10,Webshell
 ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6,SolarWinds.Orion.Core.BusinessLayer.dll,2020.2.5300.12432,2020-05-11 21:32:40,backdoor
-d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600,CORE-2019.4.5220.20574-SolarWinds-Core-v2019.4.5220-Hotfix5.msp,n/a,2020-03-24 10:56:48,Installer
+d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600,CORE-2019.4.5220.20574-SolarWinds-Core-v2019.4.5220-Hotfix5.msp,n/a,2020-03-24 10:56:48,installer
 d3c6785e18fba3749fb785bc313cf8346182f532c59172b69adfb31b96a5d0af,SolarWinds.Orion.Core.BusinessLayer.dll,2019.4.5200.8890,2019-10-10 13:26:39,backdoor
 dab758bf98d9b36fa057a66cd0284737abf89857b73ca89280267ee7caf62f3b,SolarWinds.Orion.Core.BusinessLayer.dll,2020.2.100.12219,missing,backdoor
 eb6fab5a2964c5817fb239a7a5079cabca0a00464fb3e07155f28b0a57a2c0ed,SolarWinds.Orion.Core.BusinessLayer.dll,2020.2.100.11831,missing,backdoor
+c45c9bda8db1d470f1fd0dcc346dc449839eb5ce9a948c70369230af0b3ef168,SUNSPOT,n/a,2020-02-20 11:30:02,implant
+,,,,
