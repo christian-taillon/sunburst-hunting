@@ -26,6 +26,9 @@ After a dormant period of around two weeks, it executes commands, called Jobs, i
 #### Second-Stage Payloads
 Along with SUNBURST, samples have been observed dropping a memory-only dropper called TEARDROP, which was used to deploy Cobalt Strike beacons, a popular tool by many of our adversaries.
 
+## Implant Sunpot
+Malware to insert the SUNBURST backdoor into Orion software. It replaces a source file that includes the backdoor.
+
 #### Command and Control (C2)
 As noted, the adversaries use domain generated algorithms (DGA) to build subdomains of the avsvmcloud[dot]com. This communication can be used for the additional payloads or to exfiltrate data. Hostnames have matched those found monitored by the victim’s Orion instance. It appears that the adversary will also use VPS infrastructure hosted in the same country as the victim.
 
@@ -45,5 +48,7 @@ LATEST: [CISA Alert: AA20-352A](https://us-cert.cisa.gov/ncas/alerts/aa20-352a)
 [unit42: SolarStorm and SUNBURST Customer Coverage](https://unit42.paloaltonetworks.com/fireeye-solarstorm-sunburst/)</br>
 [TrustedSec SUNBURST](https://www.trustedsec.com/blog/solarwinds-orion-and-unc2452-summary-and-recommendations/)</br>
 [Reversing Labs: SunBurst: the next level of stealth](https://blog.reversinglabs.com/blog/sunburst-the-next-level-of-stealth)
+</br>
+[CrowdStrike Sunpot Malware](https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/)
 </br></br>
 Special thanks to John Bambenek @bambenek who started with identifying NBI beyond initial scope of [FireEye published indicators](https://github.com/fireeye/sunburst_countermeasures) and @RedDrip7 for starting work on the [python script](https://github.com/RedDrip7/SunBurst_DGA_Decode).
