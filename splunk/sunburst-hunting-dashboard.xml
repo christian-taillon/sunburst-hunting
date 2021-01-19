@@ -121,7 +121,7 @@
       <table>
         <title>Sunburst IP - Source</title>
         <search>
-          <query>| inputlookup sunburst_bad_ip_source.csv</query>
+          <query>| inputcsv sunburst_bad_ip_source.csv</query>
           <earliest>-24h@h</earliest>
           <latest>now</latest>
         </search>
