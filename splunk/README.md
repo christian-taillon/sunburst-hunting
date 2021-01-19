@@ -334,5 +334,6 @@
         </dashboard>
 
 
-4. Go to 'User Interface' -> 'Navigation Menu' -> default and add your view to navigate to it while in the Splunk app.
+4. Go to 'User Interface' -> 'Navigation Menu' -> default and add your view to navigate to it while in the Splunk app. </br>
+
         <view name="sunburst" />
