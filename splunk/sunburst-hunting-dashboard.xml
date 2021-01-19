@@ -1,0 +1,168 @@
+<dashboard theme="dark">
+  <label>Sunburst UNC2452 Network</label>
+  <description>An attempt to high level, check for indicators of what type of victim we are (stage 1, stage 2, stage 3)</description>
+  <row>
+    <panel>
+      <title>https://github.com/christian-taillon/sunburst-hunting</title>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Sunburst Domains - Github</title>
+      <table>
+        <title>High Confidence</title>
+        <search>
+          <query>| inputlookup append=T ip_intel where threat_key=sunburst_domains
+
+| table description domain threat_key</query>
+          <earliest>-15m</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+    <panel>
+      <title>Sunburst IPs - Github</title>
+      <table>
+        <title>High Confidence</title>
+        <search>
+          <query>| inputlookup append=T ip_intel where threat_key=sunburs_ipv4_avsmcloud_root_aRecords
+| inputlookup append=T ip_intel where threat_key=sunburst_ipv4_c2
+| table description ip threat_key</query>
+          <earliest>-15m</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+    <panel>
+      <title>Sunburst DGA IP - Github</title>
+      <table>
+        <title>High Confidence</title>
+        <search>
+          <query>| inputlookup append=T ip_intel where threat_key=sunburst_ipv4_dga
+| table description ip threat_key</query>
+          <earliest>-15m</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Domains (including others DGA)</title>
+      <viz type="status_indicator_app.status_indicator">
+        <title>Low Confidence</title>
+        <search>
+          <query>| inputlookup append=t sunburst-domain
+| rename Domain as domain
+| inputlookup append=T ip_intel where threat_key=sunburst_domains
+| stats dc(domain)</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="status_indicator_app.status_indicator.colorBy">static_color</option>
+        <option name="status_indicator_app.status_indicator.fillTarget">text</option>
+        <option name="status_indicator_app.status_indicator.fixIcon">globe</option>
+        <option name="status_indicator_app.status_indicator.icon">fix_icon</option>
+        <option name="status_indicator_app.status_indicator.precision">0</option>
+        <option name="status_indicator_app.status_indicator.showOption">1</option>
+        <option name="status_indicator_app.status_indicator.staticColor">#555</option>
+        <option name="status_indicator_app.status_indicator.useColors">true</option>
+        <option name="status_indicator_app.status_indicator.useThousandSeparator">true</option>
+      </viz>
+    </panel>
+    <panel>
+      <title>Distinct IP Addresses</title>
+      <viz type="status_indicator_app.status_indicator">
+        <title>Low Confidence</title>
+        <search>
+          <query>| inputlookup append=t sunburst-ip
+| inputlookup append=T ip_intel where threat_key=sunburs_ipv4_avsmcloud_root_aRecords
+| inputlookup append=T ip_intel where threat_key=sunburst_ipv4_c2
+| inputlookup append=T ip_intel where threat_key=sunburst_ipv4_dga
+| rename ip as 'ip_address'
+| rename IP as 'ip_address'
+| stats dc('ip_address')</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="status_indicator_app.status_indicator.colorBy">static_color</option>
+        <option name="status_indicator_app.status_indicator.fillTarget">text</option>
+        <option name="status_indicator_app.status_indicator.fixIcon">server</option>
+        <option name="status_indicator_app.status_indicator.icon">fix_icon</option>
+        <option name="status_indicator_app.status_indicator.precision">0</option>
+        <option name="status_indicator_app.status_indicator.showOption">1</option>
+        <option name="status_indicator_app.status_indicator.staticColor">#555</option>
+        <option name="status_indicator_app.status_indicator.useColors">true</option>
+        <option name="status_indicator_app.status_indicator.useThousandSeparator">true</option>
+      </viz>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>Sunurst IP - Dest</title>
+        <search>
+          <query>| inputcsv sunburst_bad_ip.csv</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+    <panel>
+      <table>
+        <title>Sunburst IP - Source</title>
+        <search>
+          <query>| inputlookup sunburst_bad_ip_source.csv</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>Sunburst Domain</title>
+        <search>
+          <query>| inputcsv sunburst_bad_domain.csv</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>Sunburst FileHash - Github</title>
+        <search>
+          <query>| inputlookup append=T file_intel where threat_key=sunburst-sha256
+
+| table description file_hash threat_key</query>
+          <earliest>-15m</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+    <panel>
+      <table>
+        <title>Sunburst Bad FileHash</title>
+        <search ref="Sunburst Bad FileHash"></search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+</dashboard>
