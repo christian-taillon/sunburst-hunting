@@ -1,19 +1,30 @@
-domain
-avsvmcloud.com
-databasegalore.com
-deftsecurity.com
-digitalcollege.org
-freescanonline.com
-globalnetworkissues.com
-highdatabase.com
-incomeupdate.com
-kubecloud.com
-lcomputers.com
-panhardware.com
-seobundlekit.com
-solartrackingsystem.net
-thedoccloud.com
-virtualwebdata.com
-webcodez.com
-websitetheme.com
-zupertech.com
+Domain,Create Date,IP,Hosting Provider,SSL/TLS Certificate,Registrar,Name Server,Purpose,First Reported
+aimsecurity[.]net,1/23/2020,199.241.143.102,VegasNap LLC,6a448007f05bd5069cd222611ccd1e66b4466922,"EPIK, INC.,EPIK INC",epik[.]com,CobaltStrike Beacon C2,Microsoft
+avsvmcloud[.]com,7/25/2018,Various,Various Azure,N/A,"NameSilo, LLC",Self,SUNBURST 1st Stage DNS C2,FireEye
+databasegalore[.]com,12/14/2019,5.252.177.21,MivoCloud SRL,d400021536d712cbe55ceab7680e9868eb70de4a,NAMECHEAP INC,registrar-servers[.]com,Possible Beacon C2,FireEye
+datazr[.]com,9/3/2019,45.150.4.10,Buzoianu Marian,8387c1ca2d3a5a34495f1e335a497f81a8be680d,"Epik, Inc.",epik[.]com,CobaltStrike Beacon C2,Microsoft
+deftsecurity[.]com,2/11/2019,13.59.205.66,Amazon Technologies Inc.,12d986a7f4a7d2f80aaf0883ec3231db3e368480,"NameSilo, LLC",dnsowl[.]com,SUNBURST 2nd Stage C2,FireEye
+digitalcollege[.]org,3/24/2019,13.57.184.217,Amazon Technologies Inc.,fdb879a2ce7e2cda26bec8b37d2b9ec235fade44,Stichting Registrar of Last Resort Foundation,registrar-servers[.]com,Unknown,Volexity
+ervsystem[.]com,2/4/2018,198.12.75.112,ColoCrossing,0548eedb3d1f45f1f9549e09d00683f3a1292ec5,"Epik, Inc.",epik[.]com,CobaltStrike Beacon C2,Symantec
+financialmarket[.]org,10/2/2001,23.92.211.15,John George,a9300b3607a11b51a285dcb132e951f03974da27,"Namesilo, LLC",dnsowl[.]com,CobaltStrike Beacon C2,Microsoft
+freescanonline[.]com,8/14/2014,54.193.127.66,Amazon Technologies Inc.,8296028c0ee55235a2c8be8c65e10bf1ea9ce84f,NAMECHEAP INC,registrar-servers[.]com,SUNBURST 2nd Stage C2,FireEye
+gallerycenter[.]org,10/10/2019,135.181.10.254,Hetzner Online GmbH,a30c95b105d0c10731c368a40d5f36c778ef96e6,"NAMESILO, LLC",dnsowl[.]com,CobaltStrike Beacon C2,Microsoft
+globalnetworkissues[.]com,12/16/2020,18.220.219.143,Amazon Technologies Inc.,ff883db5cb023ea6b227bee079e440a1a0c50f2b,Key-Systems GmbH,registrar-servers[.]com,Unknown,Volexity
+highdatabase[.]com,3/18/2019,139.99.115.204,OVH Singapore,35aeff24dfa2f3e9250fc874c4e6c9f27c87c40a,"NAMESILO, LLC",dnsowl[.]com,SUNBURST 2nd Stage C2,FireEye
+incomeupdate[.]com,10/2/2016,5.252.177.25,MivoCloud SRL,4909da6d3c809aee148b9433293a062a31517812,"NAMECHEAP, INC",registrar-servers[.]com,Possible Beacon C2,FireEye
+infinitysoftwares[.]com,1/28/2019,107.152.35.77,ServerCheap INC,e70b6be294082188cbe0089dd44dbb86e365f6a2,"NameSilo, LLC",dnsowl[.]com,CobaltStrike Beacon C2,Symantec
+kubecloud[.]com,4/20/2015,3.87.182.149,Amazon Data Services NoVa,1123340c94ab0fd1e213f1743f92d571937c5301,"NameSilo, LLC",dnsowl[.]com,Unknown,Volexity
+lcomputers[.]com,1/27/2002,162.223.31.184,QuickPacket LLC,7f9ec0c7f7a23e565bf067509fbef0cbf94dfba6,"NameSilo, LLC",dnsowl[.]com,Unknown,Volexity
+mobilnweb[.]com,9/28/2019,172.97.71.162,Owned-Networks LLC,2c2ce936dd512b70f6c3de7c0f64f361319e9690,"NAMECHEAP INC,NAMECHEAP, INC",registrar-servers[.]com,CobaltStrike Beacon C2,Palo Alto
+olapdatabase[.]com,7/1/2019,192.3.31.210,ColoCrossing,05c05e19875c1dc718462cf4afed463dedc3d5fd,"NAMESILO, LLC",dnsowl[.]com,CobaltStrike Beacon C2,Microsoft
+panhardware[.]com,5/30/2019,204.188.205.176,SharkTech,3418c877b4ff052b6043c39964a0ee7f9d54394d,"NameSilo, LLC",dnsowl[.]com,Possible Beacon C2,FireEye
+seobundlekit[.]com,7/14/2019,3.16.81.254,Amazon Technologies Inc.,e7f2ec0d868d84a331f2805da0d989ad06b825a1,NAMECHEAP INC,registrar-servers[.]com,Unknown,Volexity
+solartrackingsystem[.]net,12/5/2009,34.219.234.134,Amazon Technologies Inc.,91b9991c10b1db51ecaa1e097b160880f0169e0c,"NameSilo, LLC",dnsowl[.]com,Unknown,Volexity
+swipeservice[.]com,9/3/2015,162.241.124.32,Unified Layer,9aeed2008652c30afa71ff21c619082c5f228454,"NAMECHEAP INC,NAMECHEAP, INC",registrar-servers[.]com,CobaltStrike Beacon C2,Microsoft
+techiefly[.]com,9/24/2019,93.119.106.69,Tennet Telecom SRL,ab94a07823d8bb6797af7634ed1466e42ff67bfb,"EPIK, INC.,EPIK INC",epik[.]com,CobaltStrike Beacon C2,Microsoft
+thedoccloud[.]com,7/7/2013,54.215.192.52,Amazon Technologies Inc.,849296c5f8a28c3da2abe79b82f99a99b40f62ce,"NameSilo, LLC",dnsowl[.]com,SUNBURST 2nd Stage C2,FireEye
+virtualdataserver[.]com,5/30/2019,Various,Various,4359513fe78c5c8c6b02715954cfce2e3c3a20f6,"Epik, Inc",Various,Unknown,Palo Alto
+virtualwebdata[.]com,3/22/2014,18.217.225.111,Amazon Technologies Inc.,ab93a66c401be78a4098608d8186a13b27db8e8d,"NameSilo, LLC",dnsowl[.]com,Unknown,Volexity
+webcodez[.]com,8/12/2005,45.141.152.18,M247 Europe SRL,2667db3592ac3955e409de83f4b88fb2046386eb,NAMECHEAP INC,monovm[.]com,Unknown,Volexity
+websitetheme[.]com,7/28/2006,34.203.203.23,Amazon Technologies Inc.,66576709a11544229e83b9b4724fad485df143ad,"NameSilo, LLC",dnsowl[.]com,SUNBURST 2nd Stage C2,FireEye
+zupertech[.]com,8/16/2016,51.89.125.18,OVH SAS,d33ec5d35d7b0c2389aa3d66f0bde763809a54a8,"NameSilo, LLC",dnsowl[.]com,Possible Beacon C2,FireEye

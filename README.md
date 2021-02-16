@@ -53,4 +53,5 @@ LATEST: [CISA Alert: AA20-352A](https://us-cert.cisa.gov/ncas/alerts/aa20-352a)
 </br>
 [CrowdStrike Sunpot Malware](https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/)
 </br></br>
+[Change in Perspective on the Utility of SUNBURST-related Network Indicators](https://www.domaintools.com/resources/blog/change-in-perspective-on-the-utility-of-sunburst-related-network-indicators)
 Special thanks to John Bambenek @bambenek who started with identifying NBI beyond initial scope of [FireEye published indicators](https://github.com/fireeye/sunburst_countermeasures) and @RedDrip7 for starting work on the [python script](https://github.com/RedDrip7/SunBurst_DGA_Decode).
