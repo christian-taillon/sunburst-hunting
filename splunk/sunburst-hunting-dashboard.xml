@@ -110,7 +110,7 @@
       <table>
         <title>Sunurst IP - Dest</title>
         <search>
-          <query>| inputcsv sunburst_bad_ip.csv</query>
+          <query>| inputcsv sunburst_bad_ip.csv </query>
           <earliest>-24h@h</earliest>
           <latest>now</latest>
         </search>
